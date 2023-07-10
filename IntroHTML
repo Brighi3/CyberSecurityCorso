@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Michele Avaltroni - Principi della Cybersecurity</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    
+    h1 {
+      color: #333;
+      text-align: center;
+    }
+    
+    p {
+      color: #555;
+      line-height: 1.5;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1 class="mt-4">Michele Avaltroni - Principi della Cybersecurity</h1>
+  
+    <div class="mt-4">
+      <h2>Introduzione</h2>
+      <p>La cybersecurity è un campo cruciale nell'era digitale in cui viviamo. Proteggere i nostri dati, le nostre reti e i nostri sistemi è fondamentale per prevenire attacchi informatici dannosi. In questa pagina, esploreremo alcuni principi fondamentali della cybersecurity.</p>
+  
+      <h2>1. Principio della sicurezza in profondità</h2>
+      <p>Il principio della sicurezza in profondità (defense in depth) suggerisce l'utilizzo di multiple linee di difesa per proteggere i sistemi. Questo approccio prevede l'implementazione di diverse misure di sicurezza a diversi livelli, come firewall, antivirus, autenticazione forte e monitoraggio degli accessi.</p>
+  
+      <h2>2. Principio del bisogno di sapere</h2>
+      <p>Il principio del bisogno di sapere (need-to-know) afferma che solo le persone autorizzate dovrebbero avere accesso alle informazioni e ai sistemi pertinenti per svolgere le proprie attività. Limitare l'accesso solo ai privilegi necessari riduce le opportunità per gli attaccanti di compromettere i dati sensibili.</p>
+  
+      <h2>3. Principio della difesa in attesa</h2>
+      <p>Il principio della difesa in attesa (defense in depth) implica che gli attacchi informatici sono inevitabili e che bisogna prepararsi per affrontarli. Questo principio suggerisce la presenza di sistemi di rilevamento delle intrusioni, monitoraggio continuo e piani di risposta agli incidenti per rilevare e rispondere prontamente agli attacchi.</p>
+  
+      <h2>4. Principio della sicurezza delle informazioni</h2>
+      <p>Il principio della sicurezza delle informazioni riguarda la protezione, l'integrità e la riservatezza delle informazioni. Questo principio implica l'utilizzo di tecniche di crittografia, backup regolari dei dati e politiche di gestione delle password per garantire che le informazioni siano accessibili solo alle persone autorizzate.</p>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
