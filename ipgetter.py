@@ -1,6 +1,6 @@
 import socket
 
-url1 = "store.pisasportingclub.com/" \
+url1 = "" \
 
 def get_ip_address(url):
     try:
