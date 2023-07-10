@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Crittografia</title>
+</head>
+<body>
+    <h1>Crittografia</h1>
+    <form method="POST" action="/">
+        <label for="text">Testo:</label>
+        <input type="text" id="text" name="text" required><br><br>
+
+        <label for="encryption_type">Tipo di crittografia:</label>
+        <select id="encryption_type" name="encryption_type" required>
+            <option value="symmetric">Simmetrica</option>
+            <option value="asymmetric">Asimmetrica</option>
+            <option value="stream">Di flusso</option>
+            <option value="hash">Hashing</option>
+        </select><br><br>
+
+        <input type="submit" value="Crittografa">
+    </form>
+</body>
+</html>

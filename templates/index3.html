@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Verifica Sicurezza Password</title>
+</head>
+<body>
+    <h1>Verifica Sicurezza Password</h1>
+    <form method="POST" action="/">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+        <button type="submit">Verifica Sicurezza</button>
+    </form>
+
+    {% if password %}
+        <h2>Risultati:</h2>
+        <p>Password inserita: {{ password }}</p>
+        <img src="{{ url_for('static', filename='column_chart.png') }}" alt="Grafico a colonne">
+    {% endif %}
+</body>
+</html>

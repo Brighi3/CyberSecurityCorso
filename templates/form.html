@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Invio Email</title>
+  </head>
+  <body>
+    <h1>Invio Email</h1>
+    <form action="/send_email" method="post">
+      <label for="sender_email">Email mittente:</label>
+      <input type="email" name="sender_email" required><br>
+      <label for="sender_password">Password:</label>
+      <input type="password" name="sender_password" required><br>
+      <label for="recipient_email">Email destinatario:</label>
+      <input type="email" name="recipient_email" required><br>
+      <label for="subject">Oggetto:</label>
+      <input type="text" name="subject" required><br>
+      <label for="message">Messaggio:</label><br>
+      <textarea name="message" rows="5" required></textarea><br>
+      <input type="submit" value="Invia Email">
+    </form>
+  </body>
+</html>
